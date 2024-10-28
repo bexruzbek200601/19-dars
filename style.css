@@ -1,0 +1,402 @@
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.cantaner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.navbar_link{
+    display: flex;
+    gap: 50px;
+}
+.dev_card{
+    text-align: center;
+    display: flex;
+}
+.rasm3{
+    width: 20px;
+}
+.card_ver{
+    display: flex;
+    font-size: 25px;
+    gap: 20px;
+}
+.card_btn{
+    width: 200px;
+    height: 400px;
+    font-size: 20px;
+    margin-left: 30px;
+    line-height: 40px;
+}
+.colort{
+    color:  #E31E24;
+    font-size: 20px;
+
+}
+.rasm{
+    width: 1050px;
+    padding: 20px;
+    height: 750px;
+}
+.carw{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 20px;
+}
+.rasm2{
+    width: 250px;
+}
+.rasm01{
+    width: 45px;
+}
+.card_net{
+    display: flex;
+    font-size: 20px;
+    line-height: 25px;
+    gap: 20px;
+}
+.tert{
+    width: 70px;
+}
+.selection-container {
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+}
+
+.options-box {
+  margin: 16px 0px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  display: none;
+}
+
+
+.left-box {
+  padding: 10px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 2;
+  position: sticky;
+  top: 10px;
+  overflow-y: scroll;
+}
+
+.main-box {
+  flex: 5;
+}
+
+.right-box {
+  background-color: green;
+  height: 400px;
+  position: sticky;
+  top: 10px;
+}
+
+.showcase {
+    max-width: 1400px;
+    margin: 0 auto;
+   display: flex;
+   gap: 30px;
+}
+    .raqam_rang{
+        color: red;
+    }
+.cdd{
+    width: 90px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: red;
+    gap: 25px;
+}
+.vw{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+   
+    
+}
+.cvvw{
+    width: 20px;
+    height: 90px;
+    background: rgba(91, 91, 91, 1);
+
+    gap: 25px; 
+}
+.vw b{
+    font-size: 30px;
+}
+.verrt{
+    display: flex;
+    gap: 30px;
+}
+.verrt h1{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #000;
+}
+.ttt{
+    display: flex;
+    gap: 20px;
+}
+.imgg{
+    width: 1000px;
+}
+.www{
+    padding: 50px;
+}
+.shert{
+    gap: 10px;
+    display: flex;
+    margin-left: 30px;
+    justify-content: center;
+}
+.shert .card{
+    width:400px;
+}
+.bord{
+    width: 5px;
+    height: 200px;
+    background-color: red;
+}
+.rasmv{
+    width: 350px;
+}
+.dert{
+    display: flex;
+    padding-top: 30px;
+    gap: 20px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.dert h1{
+        font-weight: 400;
+        font-size: 32px;
+        color: #000;
+    
+
+    }
+    .weert{
+        width: 70px;
+        background-color: red;
+        height: 110px;
+    }
+    .chek{
+        display: flex;
+        gap: 30px;
+    }
+    .showw1{
+        width: 150px;
+        height: 5px;
+        background-color: red;
+    }
+.cebb{
+    display: flex;
+    gap: 20px;
+}
+.vewrt{
+    display: flex;
+    gap: 25px;
+    font-size: 20px;
+}
+.card_vett{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.card_vett img{
+    width: 260px;
+}
+.cavr{
+    display: flex;
+    gap: 20px;
+}
+.vewrt2{
+    width: 30px;
+    background: rgba(91, 91, 91, 1);
+    height: 70px;
+
+}
+.get{
+    display: flex;
+}
+.get img {
+width: 200px;
+}
+.get p{
+    font-size: 15px;
+}
+@media (max-width: 768px) {
+    .header {
+      font-size: 16px;
+    }
+  
+    .navbar_link {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .showcase {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .left-box {
+      width: 100%;
+      overflow-y: visible;
+      height: auto;
+    }
+  
+    .main-box {
+      padding: 20px;
+    }
+  
+    .vw {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .vw .card {
+      font-size: 18px;
+    }
+  
+    .imgg {
+      width: 100%;
+    }
+  
+    .ttt {
+      flex-direction: column;
+    }
+  
+    .cebb, .vewrt, .card_vett, .cavr {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .card_vett {
+      grid-template-columns: 1fr;
+    }
+  
+    .selection-container, .options-box, .bord, .card_net, .card_ver, .selection-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .rasm {
+      width: 100%;
+    }
+  
+    .dev_card, .shert {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 1363px){
+    .left-box{
+        display: none;
+    }
+  }
+ 
+  @media (max-width: 480px) {
+    .header {
+      font-size: 14px;
+      text-align: center;
+      display: none;
+      
+    }
+  
+    .navbar_link {
+      gap: 15px;
+    }
+  
+    .card {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    .selection-container, .shert, .showcase, .cebb, .vewrt {
+      gap: 10px;
+    }
+  
+    .imgg {
+      width: 100%;
+    }
+  
+    .cebb .card, .vewrt .card {
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    .navbar2, .card_btn {
+      display: none;
+    }
+  
+    .showcase {
+      padding: 10px;
+    }
+  
+    .card_vett {
+      grid-template-columns: 1fr;
+    }
+  
+    .rasm, .rasmv {
+      width: 100%;
+      height: auto;
+    }
+  
+    .dev_card {
+      text-align: center;
+    }
+  
+    .carw {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+
+    .selection-container, .options-box {
+      gap: 8px;
+    }
+  
+    .card p, .card_ver p {
+      text-align: center;
+    }
+  }
+  @media (max-width: 800px){
+    .get{
+      flex-direction: column;
+        }
+    .get .card p{
+      width: 200px;
+    }
+    .card000 img{
+      width: 250px;
+    }
+  }
